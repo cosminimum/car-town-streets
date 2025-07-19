@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>carasset_98</key>
+	<dict>
+		<key>carID</key>
+		<integer>98</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{0,0}</string>
+			<key>rearWheelPosition</key>
+			<string>{0,0}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{0,0}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{0,0}</string>
+			<key>rearWheelPosition</key>
+			<string>{0,0}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{0,0}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{0,0}</string>
+			<key>rearWheelPosition</key>
+			<string>{0,0}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{0,0}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

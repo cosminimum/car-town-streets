@@ -1,0 +1,146 @@
+package com.millennialmedia.android;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
+import com.google.android.gms.drive.DriveFile;
+import com.google.android.gms.plus.PlusShare;
+import com.millennialmedia.android.MMAdViewSDK;
+import java.util.HashMap;
+
+class MMInterstitial extends MMJSObject {
+    MMInterstitial() {
+    }
+
+    public MMJSResponse show(HashMap<String, String> arguments) {
+        String url = arguments.get(PlusShare.KEY_CALL_TO_ACTION_URL);
+        Context context = (Context) this.contextRef.get();
+        if (url == null || context == null) {
+            return null;
+        }
+        Intent intent = new Intent(context, MMActivity.class);
+        intent.putExtra("class", "com.millennialmedia.android.AdViewOverlayActivity");
+        intent.setData(Uri.parse(url));
+        if (!(context instanceof MMActivity)) {
+            intent.setFlags(603979776);
+        }
+        if (!(context instanceof Activity)) {
+            intent.addFlags(DriveFile.MODE_READ_ONLY);
+        }
+        context.startActivity(intent);
+        return MMJSResponse.responseWithSuccess();
+    }
+
+    public MMJSResponse close(HashMap<String, String> hashMap) {
+        Context context = (Context) this.contextRef.get();
+        if (context == null || !(context instanceof Activity)) {
+            return null;
+        }
+        ((Activity) context).finish();
+        return MMJSResponse.responseWithSuccess();
+    }
+
+    public MMJSResponse open(HashMap<String, String> arguments) {
+        String url = arguments.get(PlusShare.KEY_CALL_TO_ACTION_URL);
+        Context context = (Context) this.contextRef.get();
+        if (url == null || context == null) {
+            return null;
+        }
+        Intent intent = new Intent("android.intent.action.VIEW", Uri.parse(url));
+        intent.setFlags(603979776);
+        if (!(context instanceof Activity)) {
+            intent.addFlags(DriveFile.MODE_READ_ONLY);
+        }
+        MMAdViewSDK.Event.intentStarted(context, (MMAdView) null, MMAdViewSDK.Event.INTENT_EXTERNAL_BROWSER);
+        context.startActivity(intent);
+        return MMJSResponse.responseWithSuccess();
+    }
+
+    public MMJSResponse expandWithProperties(HashMap<String, String> arguments) {
+        String isBanner = arguments.get(OverlaySettings.BANNER_TYPE);
+        if (isBanner != null && !Boolean.parseBoolean(isBanner)) {
+            return MMJSResponse.responseWithError("Cannot expand a non banner ad");
+        }
+        String url = arguments.get(PlusShare.KEY_CALL_TO_ACTION_URL);
+        String transparent = arguments.get("transparent");
+        String showTitlebar = arguments.get("showTitlebar");
+        String showBottombar = arguments.get("showBottombar");
+        String enableBottombar = arguments.get("enableBottombar");
+        String enableNativeAccelerometer = arguments.get("enableNativeAccelerometer");
+        String useCustomClose = arguments.get("useCustomClose");
+        String title = arguments.get(PlusShare.KEY_CONTENT_DEEP_LINK_METADATA_TITLE);
+        String transition = arguments.get("transition");
+        String orientation = arguments.get(MMAdView.KEY_ORIENTATION);
+        String transitionDuration = arguments.get("transitionDuration");
+        String delayEnableBottombar = arguments.get("delayEnableBottombar");
+        String delayShowBottombar = arguments.get("delayShowBottombar");
+        Context context = (Context) this.contextRef.get();
+        if (context == null) {
+            return null;
+        }
+        Intent intent = new Intent(context, MMActivity.class);
+        intent.putExtra("class", "com.millennialmedia.android.AdViewOverlayActivity");
+        if (url == null && (url = arguments.get(OverlaySettings.ADURL)) == null) {
+            return MMJSResponse.responseWithError("No url");
+        }
+        if (!(context instanceof MMActivity)) {
+            intent.setFlags(603979776);
+        }
+        intent.setData(Uri.parse(url));
+        OverlaySettings settings = new OverlaySettings();
+        if (transparent != null) {
+            settings.shouldMakeOverlayTransparent = Boolean.parseBoolean(transparent);
+        }
+        if (showTitlebar != null) {
+            settings.shouldShowTitlebar = Boolean.parseBoolean(showTitlebar);
+        }
+        if (showBottombar != null) {
+            settings.shouldShowBottomBar = Boolean.parseBoolean(showBottombar);
+        }
+        if (enableBottombar != null) {
+            settings.shouldEnableBottomBar = Boolean.parseBoolean(enableBottombar);
+        }
+        if (enableNativeAccelerometer != null) {
+            settings.canAccelerate = Boolean.parseBoolean(enableNativeAccelerometer);
+        }
+        if (useCustomClose != null) {
+            settings.shouldShowCustomClose = Boolean.parseBoolean(useCustomClose);
+        }
+        if (title != null) {
+            settings.overlayTitle = title;
+        }
+        if (transition != null) {
+            settings.overlayTransition = transition;
+        }
+        if (orientation != null) {
+            settings.orientation = orientation;
+        }
+        if (delayEnableBottombar != null) {
+            try {
+                settings.delayEnableBottombar = Long.parseLong(delayEnableBottombar);
+            } catch (Exception e) {
+            }
+        }
+        if (delayShowBottombar != null) {
+            try {
+                settings.delayShowBottombar = Long.parseLong(delayShowBottombar);
+            } catch (Exception e2) {
+            }
+        }
+        if (transitionDuration != null) {
+            try {
+                settings.transitionTime = Long.parseLong(transitionDuration);
+            } catch (Exception e3) {
+            }
+        }
+        intent.putExtra("settings", settings);
+        intent.setFlags(603979776);
+        if (!(context instanceof Activity)) {
+            intent.addFlags(DriveFile.MODE_READ_ONLY);
+        }
+        context.startActivity(intent);
+        MMAdViewSDK.Event.overlayOpened(context, (MMAdView) null);
+        return MMJSResponse.responseWithSuccess();
+    }
+}

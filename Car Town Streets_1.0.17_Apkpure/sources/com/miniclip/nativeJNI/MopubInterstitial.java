@@ -1,0 +1,89 @@
+package com.miniclip.nativeJNI;
+
+import android.app.Activity;
+import android.content.Context;
+import android.util.Log;
+import com.google.ads.Ad;
+import com.google.ads.AdListener;
+import com.google.ads.AdRequest;
+import com.google.ads.InterstitialAd;
+import com.mopub.mobileads.MoPubInterstitial;
+/* loaded from: classes.dex */
+public class MopubInterstitial implements MoPubInterstitial.MoPubInterstitialListener, AdListener {
+    private InterstitialAd interstitialn;
+    private Context mContext;
+    private int state = 0;
+    private Boolean showOnLoad = false;
+
+    public MopubInterstitial(Context context) {
+        this.mContext = context;
+    }
+
+    public void loadInterstitialAd() {
+        this.state = 1;
+        this.interstitialn = new InterstitialAd((Activity) this.mContext, ((cocojava) this.mContext).getMoPubFullScreenInterstitialId());
+        AdRequest adRequest = new AdRequest();
+        adRequest.addTestDevice("D579FE21B1D06263659D782107D111D3");
+        adRequest.addTestDevice("EB6192601108B8711C1D22A99293DD07");
+        adRequest.addTestDevice("4EAB4B0CAE6A7C3F6D0AA4968C3F7B0D");
+        this.interstitialn.setAdListener(this);
+        this.interstitialn.loadAd(adRequest);
+    }
+
+    public void showInterstitialAd() {
+        if (this.state == -1) {
+            Log.i("MopubInterstitial", "no ad available");
+        } else if (this.state == 0) {
+            this.showOnLoad = true;
+            loadInterstitialAd();
+            Log.i("MopubInterstitial", "start loading then will show ad");
+        } else if (this.state == 1) {
+            this.showOnLoad = true;
+            Log.i("MopubInterstitial", "ad still loading will show on load");
+        } else if (this.state == 2) {
+            this.interstitialn.show();
+            this.state = 3;
+        }
+    }
+
+    public Boolean hasFinished() {
+        return this.state == 3;
+    }
+
+    @Override // com.mopub.mobileads.MoPubInterstitial.MoPubInterstitialListener
+    public void OnInterstitialLoaded() {
+    }
+
+    @Override // com.mopub.mobileads.MoPubInterstitial.MoPubInterstitialListener
+    public void OnInterstitialFailed() {
+        this.state = -1;
+        Log.i("MopubInterstitial", "No interstitial ad available");
+    }
+
+    @Override // com.google.ads.AdListener
+    public void onDismissScreen(Ad arg0) {
+    }
+
+    @Override // com.google.ads.AdListener
+    public void onFailedToReceiveAd(Ad arg0, AdRequest.ErrorCode arg1) {
+        this.state = -1;
+        Log.i("MopubInterstitial", "No interstitial ad available");
+    }
+
+    @Override // com.google.ads.AdListener
+    public void onLeaveApplication(Ad arg0) {
+    }
+
+    @Override // com.google.ads.AdListener
+    public void onPresentScreen(Ad arg0) {
+    }
+
+    @Override // com.google.ads.AdListener
+    public void onReceiveAd(Ad arg0) {
+        this.state = 2;
+        if (this.showOnLoad.booleanValue()) {
+            this.interstitialn.show();
+            this.state = 3;
+        }
+    }
+}

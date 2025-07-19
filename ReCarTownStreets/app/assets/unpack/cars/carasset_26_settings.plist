@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bmw_vision_efficient_dynamics_12</key>
+	<dict>
+		<key>carID</key>
+		<integer>26</integer>
+		<key>frontWheelUnder</key>
+		<true/>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,13}</string>
+			<key>frontWheelPosition</key>
+			<string>{-36.5,-138}</string>
+			<key>rearWheelPosition</key>
+			<string>{-134.5,-127}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{27,-125}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-74.5,-113}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-1.5,3}</string>
+			<key>frontWheelPosition</key>
+			<string>{4.75,-21}</string>
+			<key>rearWheelPosition</key>
+			<string>{-12,-29.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-25.25,-23.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0.5,3.75}</string>
+			<key>frontWheelPosition</key>
+			<string>{-12.75,-29.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{4.75,-20.75}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-27.25,-22.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

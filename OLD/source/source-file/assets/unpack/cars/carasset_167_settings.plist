@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+								<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+								<plist version="1.0">
+								<dict>	<key>carId_167</key><dict>
+		<key>carID</key>
+		<integer>167</integer>
+		<key>carName</key>
+		<string>pontiac_gto_convertible_66</string>
+		<key>rearWheelUnder</key>
+		<true/>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,3.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-39,-133}</string>
+			<key>rearWheelPosition</key>
+			<string>{-134.5,-126}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{36,-122.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-77,-119}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{7,-21.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-10.25,-30.75}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-10,-14.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-10.5,-32.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{6.75,-24}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-28.5,-24.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+								</plist>
+

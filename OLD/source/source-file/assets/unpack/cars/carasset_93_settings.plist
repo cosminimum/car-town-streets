@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>lotus_exige-s_12</key><dict>
+		<key>carID</key>
+		<integer>93</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-37,-136}</string>
+			<key>rearWheelPosition</key>
+			<string>{-119,-124}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{22,-126}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-59,-121.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,2.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{4.5,-22.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-8.75,-29.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-23,-23.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,2.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-9.5,-29}</string>
+			<key>rearWheelPosition</key>
+			<string>{4.75,-21.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-22.75,-23}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

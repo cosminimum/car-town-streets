@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>cie_dog_wash_car_97</key><dict>
+		<key>carID</key>
+		<integer>4</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0.5,-3}</string>
+			<key>frontWheelPosition</key>
+			<string>{-36,-137.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-130,-125.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{41.5,-123}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-57,-114}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-0.5,3.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{8.5,-20}</string>
+			<key>rearWheelPosition</key>
+			<string>{-7.5,-28.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-23.25,-21.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,4}</string>
+			<key>frontWheelPosition</key>
+			<string>{-8,-28.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{7,-20.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-25,-20.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

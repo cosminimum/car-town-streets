@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>jaguar_e-type_61</key><dict>
+		<key>carID</key>
+		<integer>91</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{2,5.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-40.5,-133.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-116.5,-123}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{26,-120.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-55.5,-116.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-0.25,2.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{3.5,-22}</string>
+			<key>rearWheelPosition</key>
+			<string>{-10,-29}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-23.5,-23.75}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-1,2.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-9,-28.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{4.5,-21.75}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-20.5,-23}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

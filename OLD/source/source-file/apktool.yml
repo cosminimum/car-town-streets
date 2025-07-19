@@ -1,0 +1,29 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: source-file.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- jpg
+- mp3
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '19'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  manifest: '8'
+  bin/AndroidManifest.xml: '0'
+  bin/jarlist.cache: '0'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.1
+versionInfo:
+  versionCode: '18'
+  versionName: 1.0.17

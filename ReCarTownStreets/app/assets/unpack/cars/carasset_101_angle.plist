@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>carasset_101_angle_overlay</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1,1},{212,95}}</string>
+			<key>offset</key>
+			<string>{2,-59}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{105,168},{212,95}}</string>
+			<key>sourceSize</key>
+			<string>{418,313}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>realTextureFileName</key>
+		<string>carasset_101_angle.png</string>
+		<key>size</key>
+		<string>{128,256}</string>
+		<key>smartupdate</key>
+		<string>$TexturePacker:SmartUpdate:7b0916d82438c0ca54c4c2018799466d$</string>
+		<key>textureFileName</key>
+		<string>carasset_101_angle.png</string>
+	</dict>
+</dict>
+</plist>

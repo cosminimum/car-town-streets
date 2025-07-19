@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/linearLayout1" android:background="@drawable/bkgrnd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0" android:layout_alignParentBottom="true">
+            <ImageButton android:layout_gravity="center_vertical" android:id="@id/browserBackButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/leftarrow" android:layout_weight="25.0" />
+            <ImageButton android:layout_gravity="center_vertical" android:id="@id/browserForwardButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rightarrow" android:layout_weight="25.0" />
+            <ImageButton android:layout_gravity="center_vertical" android:id="@id/browserRefreshButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/refresh" android:layout_weight="25.0" />
+            <ImageButton android:layout_gravity="center_vertical" android:id="@id/browserCloseButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/close" android:layout_weight="25.0" />
+        </LinearLayout>
+        <android.webkit.WebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/linearLayout1" />
+    </RelativeLayout>
+</LinearLayout>

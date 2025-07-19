@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>cie_ice_cream_truck</key><dict>
+		<key>carID</key>
+		<integer>81</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,-1}</string>
+			<key>frontWheelPosition</key>
+			<string>{-38,-139}</string>
+			<key>rearWheelPosition</key>
+			<string>{-132.5,-126}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{37,-123.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-58.5,-112.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,1}</string>
+			<key>frontWheelPosition</key>
+			<string>{6.25,-20.75}</string>
+			<key>rearWheelPosition</key>
+			<string>{-9.75,-29.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-24.5,-22}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,1}</string>
+			<key>frontWheelPosition</key>
+			<string>{-10,-29.75}</string>
+			<key>rearWheelPosition</key>
+			<string>{6,-21.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-24.5,-22.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

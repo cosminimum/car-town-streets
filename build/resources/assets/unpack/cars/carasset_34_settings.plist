@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>chevy_impala_ss_64</key><dict>
+		<key>carID</key>
+		<integer>34</integer>
+		<key>rearWheelUnder</key>
+		<true/>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-1,-14.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-38.5,-136}</string>
+			<key>rearWheelPosition</key>
+			<string>{-142,-123.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{37.5,-121.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-65.5,-110.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,-2}</string>
+			<key>frontWheelPosition</key>
+			<string>{7.25,-23}</string>
+			<key>rearWheelPosition</key>
+			<string>{-10.75,-32}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-31,-22.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{1.5,-2}</string>
+			<key>frontWheelPosition</key>
+			<string>{-13.5,-33.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{4,-24.75}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-32.5,-23.75}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

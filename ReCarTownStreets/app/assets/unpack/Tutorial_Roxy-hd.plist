@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>roxy_generic.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1,1},{166,209}}</string>
+			<key>offset</key>
+			<string>{0,0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0,0},{166,209}}</string>
+			<key>sourceSize</key>
+			<string>{166,209}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>realTextureFileName</key>
+		<string>Tutorial_Roxy-hd.png</string>
+		<key>size</key>
+		<string>{256,256}</string>
+		<key>smartupdate</key>
+		<string>$TexturePacker:SmartUpdate:02e4dfc4d972d42c201b51f88aca1bc9$</string>
+		<key>textureFileName</key>
+		<string>Tutorial_Roxy-hd.png</string>
+	</dict>
+</dict>
+</plist>

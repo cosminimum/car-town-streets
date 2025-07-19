@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+								<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+								<plist version="1.0">
+								<dict>	<key>carId_146</key><dict>
+		<key>carID</key>
+		<integer>146</integer>
+		<key>carName</key>
+		<string>vorsteiner_vrt_coupe</string>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{-38,-137}</string>
+			<key>rearWheelPosition</key>
+			<string>{-119,-125}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{18,-126.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-66.5,-119}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{2.75,-23.75}</string>
+			<key>rearWheelPosition</key>
+			<string>{-9.75,-29.75}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-10.75,-17.75}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{-11.5,-29.75}</string>
+			<key>rearWheelPosition</key>
+			<string>{2.75,-22.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-24,-23.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+								</plist>
+

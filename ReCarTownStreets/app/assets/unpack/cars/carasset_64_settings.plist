@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>cie_taco_truck_97</key><dict>
+		<key>carID</key>
+		<integer>64</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{-39.5,-134.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-141,-119.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{29,-119.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-79.5,-108.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{7.25,-21.25}</string>
+			<key>rearWheelPosition</key>
+			<string>{-9,-29.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-26,-22.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,1}</string>
+			<key>frontWheelPosition</key>
+			<string>{-12.75,-31.25}</string>
+			<key>rearWheelPosition</key>
+			<string>{4.5,-22.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-28,-23.75}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

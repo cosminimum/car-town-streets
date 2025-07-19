@@ -1,0 +1,484 @@
+package com.google.android.gms.internal;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.google.android.gms.common.internal.safeparcel.a;
+import com.millennialmedia.android.MMError;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+/* loaded from: classes.dex */
+public class ic implements Parcelable.Creator<ib> {
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static void a(ib ibVar, Parcel parcel, int i) {
+        int o = com.google.android.gms.common.internal.safeparcel.b.o(parcel);
+        Set<Integer> fa = ibVar.fa();
+        if (fa.contains(1)) {
+            com.google.android.gms.common.internal.safeparcel.b.c(parcel, 1, ibVar.getVersionCode());
+        }
+        if (fa.contains(2)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 2, (Parcelable) ibVar.fb(), i, true);
+        }
+        if (fa.contains(3)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 3, ibVar.getAdditionalName(), true);
+        }
+        if (fa.contains(4)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 4, (Parcelable) ibVar.fc(), i, true);
+        }
+        if (fa.contains(5)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 5, ibVar.getAddressCountry(), true);
+        }
+        if (fa.contains(6)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 6, ibVar.getAddressLocality(), true);
+        }
+        if (fa.contains(7)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 7, ibVar.getAddressRegion(), true);
+        }
+        if (fa.contains(8)) {
+            com.google.android.gms.common.internal.safeparcel.b.b(parcel, 8, ibVar.fd(), true);
+        }
+        if (fa.contains(9)) {
+            com.google.android.gms.common.internal.safeparcel.b.c(parcel, 9, ibVar.getAttendeeCount());
+        }
+        if (fa.contains(10)) {
+            com.google.android.gms.common.internal.safeparcel.b.b(parcel, 10, ibVar.fe(), true);
+        }
+        if (fa.contains(11)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 11, (Parcelable) ibVar.ff(), i, true);
+        }
+        if (fa.contains(12)) {
+            com.google.android.gms.common.internal.safeparcel.b.b(parcel, 12, ibVar.fg(), true);
+        }
+        if (fa.contains(13)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 13, ibVar.getBestRating(), true);
+        }
+        if (fa.contains(14)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 14, ibVar.getBirthDate(), true);
+        }
+        if (fa.contains(15)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 15, (Parcelable) ibVar.fh(), i, true);
+        }
+        if (fa.contains(17)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 17, ibVar.getContentSize(), true);
+        }
+        if (fa.contains(16)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 16, ibVar.getCaption(), true);
+        }
+        if (fa.contains(19)) {
+            com.google.android.gms.common.internal.safeparcel.b.b(parcel, 19, ibVar.fi(), true);
+        }
+        if (fa.contains(18)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 18, ibVar.getContentUrl(), true);
+        }
+        if (fa.contains(21)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 21, ibVar.getDateModified(), true);
+        }
+        if (fa.contains(20)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 20, ibVar.getDateCreated(), true);
+        }
+        if (fa.contains(23)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 23, ibVar.getDescription(), true);
+        }
+        if (fa.contains(22)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 22, ibVar.getDatePublished(), true);
+        }
+        if (fa.contains(25)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 25, ibVar.getEmbedUrl(), true);
+        }
+        if (fa.contains(24)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 24, ibVar.getDuration(), true);
+        }
+        if (fa.contains(27)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 27, ibVar.getFamilyName(), true);
+        }
+        if (fa.contains(26)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 26, ibVar.getEndDate(), true);
+        }
+        if (fa.contains(29)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 29, (Parcelable) ibVar.fj(), i, true);
+        }
+        if (fa.contains(28)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 28, ibVar.getGender(), true);
+        }
+        if (fa.contains(31)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 31, ibVar.getHeight(), true);
+        }
+        if (fa.contains(30)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 30, ibVar.getGivenName(), true);
+        }
+        if (fa.contains(34)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 34, (Parcelable) ibVar.fk(), i, true);
+        }
+        if (fa.contains(32)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 32, ibVar.getId(), true);
+        }
+        if (fa.contains(33)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 33, ibVar.getImage(), true);
+        }
+        if (fa.contains(38)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 38, ibVar.getLongitude());
+        }
+        if (fa.contains(39)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 39, ibVar.getName(), true);
+        }
+        if (fa.contains(36)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 36, ibVar.getLatitude());
+        }
+        if (fa.contains(37)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 37, (Parcelable) ibVar.fl(), i, true);
+        }
+        if (fa.contains(42)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 42, ibVar.getPlayerType(), true);
+        }
+        if (fa.contains(43)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 43, ibVar.getPostOfficeBoxNumber(), true);
+        }
+        if (fa.contains(40)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 40, (Parcelable) ibVar.fm(), i, true);
+        }
+        if (fa.contains(41)) {
+            com.google.android.gms.common.internal.safeparcel.b.b(parcel, 41, ibVar.fn(), true);
+        }
+        if (fa.contains(46)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 46, (Parcelable) ibVar.fo(), i, true);
+        }
+        if (fa.contains(47)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 47, ibVar.getStartDate(), true);
+        }
+        if (fa.contains(44)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 44, ibVar.getPostalCode(), true);
+        }
+        if (fa.contains(45)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 45, ibVar.getRatingValue(), true);
+        }
+        if (fa.contains(51)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 51, ibVar.getThumbnailUrl(), true);
+        }
+        if (fa.contains(50)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 50, (Parcelable) ibVar.fp(), i, true);
+        }
+        if (fa.contains(49)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 49, ibVar.getText(), true);
+        }
+        if (fa.contains(48)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 48, ibVar.getStreetAddress(), true);
+        }
+        if (fa.contains(55)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 55, ibVar.getWidth(), true);
+        }
+        if (fa.contains(54)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 54, ibVar.getUrl(), true);
+        }
+        if (fa.contains(53)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 53, ibVar.getType(), true);
+        }
+        if (fa.contains(52)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 52, ibVar.getTickerSymbol(), true);
+        }
+        if (fa.contains(56)) {
+            com.google.android.gms.common.internal.safeparcel.b.a(parcel, 56, ibVar.getWorstRating(), true);
+        }
+        com.google.android.gms.common.internal.safeparcel.b.D(parcel, o);
+    }
+
+    @Override // android.os.Parcelable.Creator
+    /* renamed from: as */
+    public ib createFromParcel(Parcel parcel) {
+        int n = com.google.android.gms.common.internal.safeparcel.a.n(parcel);
+        HashSet hashSet = new HashSet();
+        int i = 0;
+        ib ibVar = null;
+        ArrayList<String> arrayList = null;
+        ib ibVar2 = null;
+        String str = null;
+        String str2 = null;
+        String str3 = null;
+        ArrayList arrayList2 = null;
+        int i2 = 0;
+        ArrayList arrayList3 = null;
+        ib ibVar3 = null;
+        ArrayList arrayList4 = null;
+        String str4 = null;
+        String str5 = null;
+        ib ibVar4 = null;
+        String str6 = null;
+        String str7 = null;
+        String str8 = null;
+        ArrayList arrayList5 = null;
+        String str9 = null;
+        String str10 = null;
+        String str11 = null;
+        String str12 = null;
+        String str13 = null;
+        String str14 = null;
+        String str15 = null;
+        String str16 = null;
+        String str17 = null;
+        ib ibVar5 = null;
+        String str18 = null;
+        String str19 = null;
+        String str20 = null;
+        String str21 = null;
+        ib ibVar6 = null;
+        double d = 0.0d;
+        ib ibVar7 = null;
+        double d2 = 0.0d;
+        String str22 = null;
+        ib ibVar8 = null;
+        ArrayList arrayList6 = null;
+        String str23 = null;
+        String str24 = null;
+        String str25 = null;
+        String str26 = null;
+        ib ibVar9 = null;
+        String str27 = null;
+        String str28 = null;
+        String str29 = null;
+        ib ibVar10 = null;
+        String str30 = null;
+        String str31 = null;
+        String str32 = null;
+        String str33 = null;
+        String str34 = null;
+        String str35 = null;
+        while (parcel.dataPosition() < n) {
+            int m = com.google.android.gms.common.internal.safeparcel.a.m(parcel);
+            switch (com.google.android.gms.common.internal.safeparcel.a.M(m)) {
+                case 1:
+                    i = com.google.android.gms.common.internal.safeparcel.a.g(parcel, m);
+                    hashSet.add(1);
+                    break;
+                case 2:
+                    hashSet.add(2);
+                    ibVar = (ib) com.google.android.gms.common.internal.safeparcel.a.a(parcel, m, ib.CREATOR);
+                    break;
+                case 3:
+                    arrayList = com.google.android.gms.common.internal.safeparcel.a.y(parcel, m);
+                    hashSet.add(3);
+                    break;
+                case 4:
+                    hashSet.add(4);
+                    ibVar2 = (ib) com.google.android.gms.common.internal.safeparcel.a.a(parcel, m, ib.CREATOR);
+                    break;
+                case 5:
+                    str = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(5);
+                    break;
+                case 6:
+                    str2 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(6);
+                    break;
+                case 7:
+                    str3 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(7);
+                    break;
+                case 8:
+                    arrayList2 = com.google.android.gms.common.internal.safeparcel.a.c(parcel, m, ib.CREATOR);
+                    hashSet.add(8);
+                    break;
+                case 9:
+                    i2 = com.google.android.gms.common.internal.safeparcel.a.g(parcel, m);
+                    hashSet.add(9);
+                    break;
+                case 10:
+                    arrayList3 = com.google.android.gms.common.internal.safeparcel.a.c(parcel, m, ib.CREATOR);
+                    hashSet.add(10);
+                    break;
+                case 11:
+                    hashSet.add(11);
+                    ibVar3 = (ib) com.google.android.gms.common.internal.safeparcel.a.a(parcel, m, ib.CREATOR);
+                    break;
+                case 12:
+                    arrayList4 = com.google.android.gms.common.internal.safeparcel.a.c(parcel, m, ib.CREATOR);
+                    hashSet.add(12);
+                    break;
+                case 13:
+                    str4 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(13);
+                    break;
+                case 14:
+                    str5 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(14);
+                    break;
+                case 15:
+                    hashSet.add(15);
+                    ibVar4 = (ib) com.google.android.gms.common.internal.safeparcel.a.a(parcel, m, ib.CREATOR);
+                    break;
+                case 16:
+                    str6 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(16);
+                    break;
+                case 17:
+                    str7 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(17);
+                    break;
+                case 18:
+                    str8 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(18);
+                    break;
+                case 19:
+                    arrayList5 = com.google.android.gms.common.internal.safeparcel.a.c(parcel, m, ib.CREATOR);
+                    hashSet.add(19);
+                    break;
+                case MMError.DISPLAY_AD_NOT_READY /* 20 */:
+                    str9 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(20);
+                    break;
+                case MMError.DISPLAY_AD_EXPIRED /* 21 */:
+                    str10 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(21);
+                    break;
+                case MMError.DISPLAY_AD_NOT_FOUND /* 22 */:
+                    str11 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(22);
+                    break;
+                case MMError.DISPLAY_AD_ALREADY_DISPLAYED /* 23 */:
+                    str12 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(23);
+                    break;
+                case MMError.DISPLAY_AD_NOT_PERMITTED /* 24 */:
+                    str13 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(24);
+                    break;
+                case 25:
+                    str14 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(25);
+                    break;
+                case 26:
+                    str15 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(26);
+                    break;
+                case 27:
+                    str16 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(27);
+                    break;
+                case 28:
+                    str17 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(28);
+                    break;
+                case 29:
+                    hashSet.add(29);
+                    ibVar5 = (ib) com.google.android.gms.common.internal.safeparcel.a.a(parcel, m, ib.CREATOR);
+                    break;
+                case 30:
+                    str18 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(30);
+                    break;
+                case 31:
+                    str19 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(31);
+                    break;
+                case 32:
+                    str20 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(32);
+                    break;
+                case 33:
+                    str21 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(33);
+                    break;
+                case 34:
+                    hashSet.add(34);
+                    ibVar6 = (ib) com.google.android.gms.common.internal.safeparcel.a.a(parcel, m, ib.CREATOR);
+                    break;
+                case 35:
+                default:
+                    com.google.android.gms.common.internal.safeparcel.a.b(parcel, m);
+                    break;
+                case 36:
+                    d = com.google.android.gms.common.internal.safeparcel.a.k(parcel, m);
+                    hashSet.add(36);
+                    break;
+                case 37:
+                    hashSet.add(37);
+                    ibVar7 = (ib) com.google.android.gms.common.internal.safeparcel.a.a(parcel, m, ib.CREATOR);
+                    break;
+                case 38:
+                    d2 = com.google.android.gms.common.internal.safeparcel.a.k(parcel, m);
+                    hashSet.add(38);
+                    break;
+                case 39:
+                    str22 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(39);
+                    break;
+                case 40:
+                    hashSet.add(40);
+                    ibVar8 = (ib) com.google.android.gms.common.internal.safeparcel.a.a(parcel, m, ib.CREATOR);
+                    break;
+                case 41:
+                    arrayList6 = com.google.android.gms.common.internal.safeparcel.a.c(parcel, m, ib.CREATOR);
+                    hashSet.add(41);
+                    break;
+                case 42:
+                    str23 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(42);
+                    break;
+                case 43:
+                    str24 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(43);
+                    break;
+                case 44:
+                    str25 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(44);
+                    break;
+                case 45:
+                    str26 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(45);
+                    break;
+                case 46:
+                    hashSet.add(46);
+                    ibVar9 = (ib) com.google.android.gms.common.internal.safeparcel.a.a(parcel, m, ib.CREATOR);
+                    break;
+                case 47:
+                    str27 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(47);
+                    break;
+                case 48:
+                    str28 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(48);
+                    break;
+                case 49:
+                    str29 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(49);
+                    break;
+                case 50:
+                    hashSet.add(50);
+                    ibVar10 = (ib) com.google.android.gms.common.internal.safeparcel.a.a(parcel, m, ib.CREATOR);
+                    break;
+                case 51:
+                    str30 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(51);
+                    break;
+                case 52:
+                    str31 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(52);
+                    break;
+                case 53:
+                    str32 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(53);
+                    break;
+                case 54:
+                    str33 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(54);
+                    break;
+                case 55:
+                    str34 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(55);
+                    break;
+                case 56:
+                    str35 = com.google.android.gms.common.internal.safeparcel.a.m(parcel, m);
+                    hashSet.add(56);
+                    break;
+            }
+        }
+        if (parcel.dataPosition() != n) {
+            throw new a.C0013a("Overread allowed size end=" + n, parcel);
+        }
+        return new ib(hashSet, i, ibVar, arrayList, ibVar2, str, str2, str3, arrayList2, i2, arrayList3, ibVar3, arrayList4, str4, str5, ibVar4, str6, str7, str8, arrayList5, str9, str10, str11, str12, str13, str14, str15, str16, str17, ibVar5, str18, str19, str20, str21, ibVar6, d, ibVar7, d2, str22, ibVar8, arrayList6, str23, str24, str25, str26, ibVar9, str27, str28, str29, ibVar10, str30, str31, str32, str33, str34, str35);
+    }
+
+    @Override // android.os.Parcelable.Creator
+    /* renamed from: bk */
+    public ib[] newArray(int i) {
+        return new ib[i];
+    }
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pagani_zonda_r_11</key>
+	<dict>
+		<key>carID</key>
+		<integer>15</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-3,13.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-36,-136}</string>
+			<key>rearWheelPosition</key>
+			<string>{-125.5,-122}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{42.0,-128}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-66,-113}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-3,4.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{5.25,-20.75}</string>
+			<key>rearWheelPosition</key>
+			<string>{-9.5,-28.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-26.25,-21.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0.75,4.75}</string>
+			<key>frontWheelPosition</key>
+			<string>{-10.75,-29.25}</string>
+			<key>rearWheelPosition</key>
+			<string>{4.25,-21}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-24.5,-21}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,36 @@
+package com.google.android.gms.drive.internal;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
+import com.google.android.gms.drive.DriveId;
+/* loaded from: classes.dex */
+public class OpenFileIntentSenderRequest implements SafeParcelable {
+    public static final Parcelable.Creator<OpenFileIntentSenderRequest> CREATOR = new x();
+    final int kg;
+    final String qL;
+    final DriveId qM;
+    final String[] qW;
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public OpenFileIntentSenderRequest(int versionCode, String title, String[] mimeTypes, DriveId startFolder) {
+        this.kg = versionCode;
+        this.qL = title;
+        this.qW = mimeTypes;
+        this.qM = startFolder;
+    }
+
+    public OpenFileIntentSenderRequest(String title, String[] mimeTypes, DriveId startFolder) {
+        this(1, title, mimeTypes, startFolder);
+    }
+
+    @Override // android.os.Parcelable
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override // android.os.Parcelable
+    public void writeToParcel(Parcel dest, int flags) {
+        x.a(this, dest, flags);
+    }
+}

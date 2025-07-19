@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>nissan_370z_10</key><dict>
+		<key>carID</key>
+		<integer>66</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{4.5,6.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-36.5,-135}</string>
+			<key>rearWheelPosition</key>
+			<string>{-119.5,-124}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{27.5,-124.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-53.5,-121.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,3.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{2.75,-23}</string>
+			<key>rearWheelPosition</key>
+			<string>{-11,-29.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-27,-22}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,4}</string>
+			<key>frontWheelPosition</key>
+			<string>{-8,-28}</string>
+			<key>rearWheelPosition</key>
+			<string>{5.75,-21}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-23,-20.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

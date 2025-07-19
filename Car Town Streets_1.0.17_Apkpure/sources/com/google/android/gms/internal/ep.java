@@ -1,0 +1,122 @@
+package com.google.android.gms.internal;
+
+import android.os.Parcel;
+import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
+import com.google.android.gms.internal.es;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+/* loaded from: classes.dex */
+public final class ep implements SafeParcelable, es.b<String, Integer> {
+    public static final eq CREATOR = new eq();
+    private final int kg;
+    private final HashMap<String, Integer> qd;
+    private final HashMap<Integer, String> qe;
+    private final ArrayList<a> qf;
+
+    /* loaded from: classes.dex */
+    public static final class a implements SafeParcelable {
+        public static final er CREATOR = new er();
+        final String qg;
+        final int qh;
+        final int versionCode;
+
+        /* JADX INFO: Access modifiers changed from: package-private */
+        public a(int i, String str, int i2) {
+            this.versionCode = i;
+            this.qg = str;
+            this.qh = i2;
+        }
+
+        a(String str, int i) {
+            this.versionCode = 1;
+            this.qg = str;
+            this.qh = i;
+        }
+
+        @Override // android.os.Parcelable
+        public int describeContents() {
+            er erVar = CREATOR;
+            return 0;
+        }
+
+        @Override // android.os.Parcelable
+        public void writeToParcel(Parcel out, int flags) {
+            er erVar = CREATOR;
+            er.a(this, out, flags);
+        }
+    }
+
+    public ep() {
+        this.kg = 1;
+        this.qd = new HashMap<>();
+        this.qe = new HashMap<>();
+        this.qf = null;
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public ep(int i, ArrayList<a> arrayList) {
+        this.kg = i;
+        this.qd = new HashMap<>();
+        this.qe = new HashMap<>();
+        this.qf = null;
+        a(arrayList);
+    }
+
+    private void a(ArrayList<a> arrayList) {
+        Iterator<a> it = arrayList.iterator();
+        while (it.hasNext()) {
+            a next = it.next();
+            c(next.qg, next.qh);
+        }
+    }
+
+    @Override // com.google.android.gms.internal.es.b
+    /* renamed from: a */
+    public String g(Integer num) {
+        String str = this.qe.get(num);
+        return (str != null || !this.qd.containsKey("gms_unknown")) ? str : "gms_unknown";
+    }
+
+    public ep c(String str, int i) {
+        this.qd.put(str, Integer.valueOf(i));
+        this.qe.put(Integer.valueOf(i), str);
+        return this;
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public ArrayList<a> cg() {
+        ArrayList<a> arrayList = new ArrayList<>();
+        for (String str : this.qd.keySet()) {
+            arrayList.add(new a(str, this.qd.get(str).intValue()));
+        }
+        return arrayList;
+    }
+
+    @Override // com.google.android.gms.internal.es.b
+    public int ch() {
+        return 7;
+    }
+
+    @Override // com.google.android.gms.internal.es.b
+    public int ci() {
+        return 0;
+    }
+
+    @Override // android.os.Parcelable
+    public int describeContents() {
+        eq eqVar = CREATOR;
+        return 0;
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public int getVersionCode() {
+        return this.kg;
+    }
+
+    @Override // android.os.Parcelable
+    public void writeToParcel(Parcel out, int flags) {
+        eq eqVar = CREATOR;
+        eq.a(this, out, flags);
+    }
+}

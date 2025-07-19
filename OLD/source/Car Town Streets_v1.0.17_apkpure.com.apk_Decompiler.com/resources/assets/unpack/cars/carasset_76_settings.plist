@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>acura_nsx_02</key>
+	<dict>
+		<key>carID</key>
+		<integer>76</integer>
+		<key>frontWheelUnder</key>
+		<true/>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-0.5,3}</string>
+			<key>frontWheelPosition</key>
+			<string>{-37,-135.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-132,-122.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{37.0,-121.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-59.5,-109.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,1}</string>
+			<key>frontWheelPosition</key>
+			<string>{5.5,-20.75}</string>
+			<key>rearWheelPosition</key>
+			<string>{-10.75,-28.75}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-23.75,-22.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,1}</string>
+			<key>frontWheelPosition</key>
+			<string>{-12.5,-29.75}</string>
+			<key>rearWheelPosition</key>
+			<string>{4.5,-21.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-26,-23.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+								<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+								<plist version="1.0">
+								<dict>	<key>carId_148</key><dict>
+		<key>carID</key>
+		<integer>148</integer>
+		<key>carName</key>
+		<string>mclaren_mp4_12c_spider_13</string>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,5.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-36,-132.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-130,-120}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{31,-124.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-71.5,-115}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-0.25,2}</string>
+			<key>frontWheelPosition</key>
+			<string>{6.5,-23}</string>
+			<key>rearWheelPosition</key>
+			<string>{-9.25,-30}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-7.25,-17.75}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-0.5,1.25}</string>
+			<key>frontWheelPosition</key>
+			<string>{-8.75,-31.25}</string>
+			<key>rearWheelPosition</key>
+			<string>{7.5,-22.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-23.75,-24.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+								</plist>
+

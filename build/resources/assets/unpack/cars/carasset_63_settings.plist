@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>fiat_500_07</key><dict>
+		<key>carID</key>
+		<integer>63</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,4}</string>
+			<key>frontWheelPosition</key>
+			<string>{-37,-136}</string>
+			<key>rearWheelPosition</key>
+			<string>{-118,-125.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{18.5,-125}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-60,-119.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,1}</string>
+			<key>frontWheelPosition</key>
+			<string>{1.5,-20.25}</string>
+			<key>rearWheelPosition</key>
+			<string>{-11.5,-27.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-23.75,-21.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-498.75,1}</string>
+			<key>frontWheelPosition</key>
+			<string>{-12.25,-27.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{1.5,-20.75}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-23,-22.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

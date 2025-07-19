@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>ford_thunderbird_55</key><dict>
+		<key>carID</key>
+		<integer>38</integer>
+		<key>frontWheelUnder</key>
+		<true/>
+		<key>rearWheelUnder</key>
+		<true/>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,2.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-35,-135}</string>
+			<key>rearWheelPosition</key>
+			<string>{-129,-121}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-64.5,-114}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{28.5,-121.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,1}</string>
+			<key>frontWheelPosition</key>
+			<string>{3,-21.25}</string>
+			<key>rearWheelPosition</key>
+			<string>{-13.5,-29}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-27.75,-22.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,1.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-14,-30}</string>
+			<key>rearWheelPosition</key>
+			<string>{2.25,-21}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-27,-24}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

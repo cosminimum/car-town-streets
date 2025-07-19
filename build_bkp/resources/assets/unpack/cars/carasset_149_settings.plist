@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+								<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+								<plist version="1.0">
+								<dict>	<key>carId_149</key><dict>
+		<key>carID</key>
+		<integer>149</integer>
+		<key>carName</key>
+		<string>dodge_charger_hemi_pro_69</string>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,-1}</string>
+			<key>frontWheelPosition</key>
+			<string>{-35.5,-134.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-133,-120}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{25.5,-118}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-67.5,-107.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-1.25,3.25}</string>
+			<key>frontWheelPosition</key>
+			<string>{6.75,-24.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-9.5,-32.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-9.25,-17.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,1.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-9.5,-31.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{7.5,-22.75}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-25.75,-24}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+								</plist>
+

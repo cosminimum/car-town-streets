@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>vw_beetle_67</key><dict>
+		<key>carID</key>
+		<integer>68</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,10}</string>
+			<key>frontWheelPosition</key>
+			<string>{-35.5,-136}</string>
+			<key>rearWheelPosition</key>
+			<string>{-99,-127.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{22,-125}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-46.5,-122.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-0.125,3.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{1.25,-20.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-9,-25.75}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-19.75,-20.75}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,4}</string>
+			<key>frontWheelPosition</key>
+			<string>{-10.875,-26.125}</string>
+			<key>rearWheelPosition</key>
+			<string>{0.625,-20.75}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-20.25,-21.75}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

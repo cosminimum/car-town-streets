@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>land_rover_range_rover_11</key><dict>
+		<key>carID</key>
+		<integer>55</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{-36,-136.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-130,-124}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{37.5,-122}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-61,-109}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,3}</string>
+			<key>frontWheelPosition</key>
+			<string>{5,-22}</string>
+			<key>rearWheelPosition</key>
+			<string>{-11,-30.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-27.5,-23.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-1.75,3.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-11.75,-30.75}</string>
+			<key>rearWheelPosition</key>
+			<string>{4.5,-22.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-25.25,-23.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

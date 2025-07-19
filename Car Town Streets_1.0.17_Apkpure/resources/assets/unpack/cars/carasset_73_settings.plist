@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>dodge_challenger_srt8_08</key><dict>
+		<key>carID</key>
+		<integer>73</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-1.5,2.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-37,-134.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-127,-122.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{37,-120}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-56.5,-110.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{4.25,-22}</string>
+			<key>rearWheelPosition</key>
+			<string>{-12,-30}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-26.25,-23}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,1}</string>
+			<key>frontWheelPosition</key>
+			<string>{-12,-30.25}</string>
+			<key>rearWheelPosition</key>
+			<string>{3.5,-22.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-25.75,-23.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

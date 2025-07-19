@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>lamborghini_aventador_lp700-4_12</key><dict>
+		<key>carID</key>
+		<integer>18</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,7}</string>
+			<key>frontWheelPosition</key>
+			<string>{-36,-137}</string>
+			<key>rearWheelPosition</key>
+			<string>{-120.5,-123}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{33.5,-123.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-60,-111.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,4.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{3.25,-20.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-11,-27.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-24.5,-21.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,4}</string>
+			<key>frontWheelPosition</key>
+			<string>{-8.5,-26.25}</string>
+			<key>rearWheelPosition</key>
+			<string>{5.25,-19}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-22.25,-19}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

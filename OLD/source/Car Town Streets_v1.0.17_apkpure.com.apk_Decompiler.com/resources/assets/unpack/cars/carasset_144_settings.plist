@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+								<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+								<plist version="1.0">
+								<dict>	<key>carId_144</key><dict>
+		<key>carID</key>
+		<integer>144</integer>
+		<key>carName</key>
+		<string>hyundai_veloster_turbo_12</string>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-0.5,4}</string>
+			<key>frontWheelPosition</key>
+			<string>{-34,-131}</string>
+			<key>rearWheelPosition</key>
+			<string>{-131,-117.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{19.5,-124.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-83,-114.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,1}</string>
+			<key>frontWheelPosition</key>
+			<string>{5.75,-20}</string>
+			<key>rearWheelPosition</key>
+			<string>{-10.75,-27.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-4.5,-14.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-12.25,-28.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{4.75,-19.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-24.25,-23.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+								</plist>
+

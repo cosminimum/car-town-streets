@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>cie_tow_truck_97</key><dict>
+		<key>carID</key>
+		<integer>5</integer>
+		<key>frontWheelUnder</key>
+		<true/>
+		<key>rearWheelUnder</key>
+		<true/>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-6.5,-9}</string>
+			<key>frontWheelPosition</key>
+			<string>{-35,-139.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-147.5,-123.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{43.5,-124}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-71.5,-111.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,2.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{9.5,-21}</string>
+			<key>rearWheelPosition</key>
+			<string>{-8,-30}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-24.75,-22.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-1,2}</string>
+			<key>frontWheelPosition</key>
+			<string>{-9.75,-29.75}</string>
+			<key>rearWheelPosition</key>
+			<string>{9,-21.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-26.75,-23.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

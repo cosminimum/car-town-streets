@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>dodge_coronet_super_bee_70</key><dict>
+		<key>carID</key>
+		<integer>28</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,1}</string>
+			<key>frontWheelPosition</key>
+			<string>{-40,-138}</string>
+			<key>rearWheelPosition</key>
+			<string>{-146,-123}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{37.5,-121.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-72.5,-111}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{-0.5,2.75}</string>
+			<key>frontWheelPosition</key>
+			<string>{6,-22.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-10.5,-31}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-29,-22.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{1,1.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-12.75,-31.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{5.5,-22.75}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-28.75,-23.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

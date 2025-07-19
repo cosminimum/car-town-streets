@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>chevy_bel_air_57</key><dict>
+		<key>carID</key>
+		<integer>3</integer>
+		<key>frontWheelUnder</key>
+		<true/>
+		<key>rearWheelUnder</key>
+		<true/>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,1.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-36.5,-137.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-139,-124}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{39,-122}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-60.5,-113.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,3.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{8,-21}</string>
+			<key>rearWheelPosition</key>
+			<string>{-9,-29.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-25.5,-22}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{1.25,5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-11,-30.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{6.5,-22}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-27.5,-23}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

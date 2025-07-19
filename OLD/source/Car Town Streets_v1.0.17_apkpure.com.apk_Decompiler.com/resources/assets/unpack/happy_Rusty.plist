@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>rusty_shoryuken.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1,1},{111,157}}</string>
+			<key>offset</key>
+			<string>{0,0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0,0},{111,157}}</string>
+			<key>sourceSize</key>
+			<string>{111,157}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>realTextureFileName</key>
+		<string>happy_Rusty.png</string>
+		<key>size</key>
+		<string>{128,256}</string>
+		<key>smartupdate</key>
+		<string>$TexturePacker:SmartUpdate:2ecc1d77643eb8d1edbef1b408cba3a0$</string>
+		<key>textureFileName</key>
+		<string>happy_Rusty.png</string>
+	</dict>
+</dict>
+</plist>

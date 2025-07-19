@@ -1,0 +1,75 @@
+package com.google.android.gms.internal;
+
+import com.facebook.internal.ServerProtocol;
+import com.google.android.gms.plus.PlusShare;
+import java.util.Map;
+/* loaded from: classes.dex */
+public final class cg {
+    private cw gv;
+    private String hK;
+    private String hL;
+    private final Object fx = new Object();
+    private int hm = -2;
+    public final an hM = new an() { // from class: com.google.android.gms.internal.cg.1
+        @Override // com.google.android.gms.internal.an
+        public void a(cw cwVar, Map<String, String> map) {
+            synchronized (cg.this.fx) {
+                ct.v("Invalid " + map.get(ServerProtocol.DIALOG_PARAM_TYPE) + " request error: " + map.get("errors"));
+                cg.this.hm = 1;
+                cg.this.fx.notify();
+            }
+        }
+    };
+    public final an hN = new an() { // from class: com.google.android.gms.internal.cg.2
+        @Override // com.google.android.gms.internal.an
+        public void a(cw cwVar, Map<String, String> map) {
+            synchronized (cg.this.fx) {
+                String str = map.get(PlusShare.KEY_CALL_TO_ACTION_URL);
+                if (str == null) {
+                    ct.v("URL missing in loadAdUrl GMSG.");
+                    return;
+                }
+                if (str.contains("%40mediation_adapters%40")) {
+                    str = str.replaceAll("%40mediation_adapters%40", cl.b(cwVar.getContext(), map.get("check_adapters"), cg.this.hK));
+                    ct.u("Ad request URL modified to " + str);
+                }
+                cg.this.hL = str;
+                cg.this.fx.notify();
+            }
+        }
+    };
+
+    public cg(String str) {
+        this.hK = str;
+    }
+
+    public String ap() {
+        String str;
+        synchronized (this.fx) {
+            while (this.hL == null && this.hm == -2) {
+                try {
+                    this.fx.wait();
+                } catch (InterruptedException e) {
+                    ct.v("Ad request service was interrupted.");
+                    str = null;
+                }
+            }
+            str = this.hL;
+        }
+        return str;
+    }
+
+    public void b(cw cwVar) {
+        synchronized (this.fx) {
+            this.gv = cwVar;
+        }
+    }
+
+    public int getErrorCode() {
+        int i;
+        synchronized (this.fx) {
+            i = this.hm;
+        }
+        return i;
+    }
+}

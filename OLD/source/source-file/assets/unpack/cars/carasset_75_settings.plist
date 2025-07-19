@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>mazda_rx8_10</key><dict>
+		<key>carID</key>
+		<integer>75</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,9.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-37.5,-135.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-120,-123}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{25.5,-123.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-56.5,-112}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,4}</string>
+			<key>frontWheelPosition</key>
+			<string>{4.5,-20}</string>
+			<key>rearWheelPosition</key>
+			<string>{-10.25,-27}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-23.75,-20.75}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-10,-26.75}</string>
+			<key>rearWheelPosition</key>
+			<string>{4.5,-19.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-23.75,-20}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

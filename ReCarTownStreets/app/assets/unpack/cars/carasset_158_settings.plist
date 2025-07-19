@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+								<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+								<plist version="1.0">
+								<dict>	<key>carId_158</key><dict>
+		<key>carID</key>
+		<integer>158</integer>
+		<key>carName</key>
+		<string>ford_mustang_svt_cobra_93</string>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,-2}</string>
+			<key>frontWheelPosition</key>
+			<string>{-41,-133}</string>
+			<key>rearWheelPosition</key>
+			<string>{-121,-122}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{16,-123.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-66.5,-117}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{2.25,-23.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-12,-30.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-9.75,-18.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{-9.5,-29.75}</string>
+			<key>rearWheelPosition</key>
+			<string>{4.5,-22.75}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-22,-24.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+								</plist>
+

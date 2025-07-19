@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>honda_civic_si_hatch_95</key><dict>
+		<key>carID</key>
+		<integer>77</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,-1}</string>
+			<key>frontWheelPosition</key>
+			<string>{-37.5,-136.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-124.5,-126}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{23.5,-121.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-71,-114.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,2.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{3.75,-19.75}</string>
+			<key>rearWheelPosition</key>
+			<string>{-11.5,-27}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-24.75,-21.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,2}</string>
+			<key>frontWheelPosition</key>
+			<string>{-10.25,-26.75}</string>
+			<key>rearWheelPosition</key>
+			<string>{5,-19.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-23.25,-21.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

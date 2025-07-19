@@ -1,0 +1,31 @@
+package com.google.android.gms.internal;
+
+import android.app.Activity;
+import android.content.ActivityNotFoundException;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.util.Log;
+/* loaded from: classes.dex */
+public class du implements DialogInterface.OnClickListener {
+    private final Activity gs;
+    private final Intent mIntent;
+    private final int oZ;
+
+    public du(Activity activity, Intent intent, int i) {
+        this.gs = activity;
+        this.mIntent = intent;
+        this.oZ = i;
+    }
+
+    @Override // android.content.DialogInterface.OnClickListener
+    public void onClick(DialogInterface dialog, int which) {
+        try {
+            if (this.mIntent != null) {
+                this.gs.startActivityForResult(this.mIntent, this.oZ);
+            }
+            dialog.dismiss();
+        } catch (ActivityNotFoundException e) {
+            Log.e("SettingsRedirect", "Can't redirect to app settings for Google Play services");
+        }
+    }
+}

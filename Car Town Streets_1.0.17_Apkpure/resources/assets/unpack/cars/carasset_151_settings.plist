@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+								<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+								<plist version="1.0">
+								<dict>	<key>carId_151</key><dict>
+		<key>carID</key>
+		<integer>151</integer>
+		<key>carName</key>
+		<string>nissan_skyline_r34</string>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{-33,-134.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-135,-121}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{30,-124}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-77,-115.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{7.25,-22.75}</string>
+			<key>rearWheelPosition</key>
+			<string>{-11,-31.25}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-8,-15.75}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{-10,-32.25}</string>
+			<key>rearWheelPosition</key>
+			<string>{6.5,-23.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-26.25,-24.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+								</plist>
+

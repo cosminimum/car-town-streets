@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+						<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+						<plist version="1.0">
+						<dict>	<key>carId_141</key><dict>
+		<key>carID</key>
+		<integer>141</integer>
+		<key>carName</key>
+		<string>lancia_delta_integrale_93</string>
+		<key>frontWheelUnder</key>
+		<true/>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{-44.5,-130}</string>
+			<key>rearWheelPosition</key>
+			<string>{-121,-123}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{10.5,-122.5}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-64,-115.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{2.75,-22.25}</string>
+			<key>rearWheelPosition</key>
+			<string>{-11.5,-30.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-8.75,-17}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{-11.25,-30.75}</string>
+			<key>rearWheelPosition</key>
+			<string>{3.25,-24}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-24,-24.75}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+						</plist>
+

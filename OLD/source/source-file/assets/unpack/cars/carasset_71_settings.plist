@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>opel_kadett_a_65</key><dict>
+		<key>carID</key>
+		<integer>71</integer>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,0}</string>
+			<key>frontWheelPosition</key>
+			<string>{-37.5,-136.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-118,-126}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{27.5,-123}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-55,-117}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,1.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{3.5,-21}</string>
+			<key>rearWheelPosition</key>
+			<string>{-11.25,-28.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-25,-21.75}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,1.5}</string>
+			<key>frontWheelPosition</key>
+			<string>{-11.5,-28.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{2.75,-21.75}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-25.25,-22.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          			<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          			<plist version="1.0">
+          			<dict>  <key>toyota_land_cruiser_fj40_84</key><dict>
+		<key>carID</key>
+		<integer>51</integer>
+		<key>frontWheelUnder</key>
+		<true/>
+		<key>Angle</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0.5,12}</string>
+			<key>frontWheelPosition</key>
+			<string>{-39,-136.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{-127.5,-124.5}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{34,-122}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{-63,-112.5}</string>
+		</dict>
+		<key>Back</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,3}</string>
+			<key>frontWheelPosition</key>
+			<string>{3,-22}</string>
+			<key>rearWheelPosition</key>
+			<string>{-10,-29}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-23.5,-24}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>Front</key>
+		<dict>
+			<key>bodyOffset</key>
+			<string>{0,3}</string>
+			<key>frontWheelPosition</key>
+			<string>{-12,-29.5}</string>
+			<key>rearWheelPosition</key>
+			<string>{2,-22.75}</string>
+			<key>frontOppWheelPosition</key>
+			<string>{-26.25,-22.25}</string>
+			<key>rearOppWheelPosition</key>
+			<string>{0,0}</string>
+		</dict>
+	</dict></dict>
+          			</plist>
+
